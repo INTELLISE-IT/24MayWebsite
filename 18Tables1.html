@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Tables</title>
+    <style>
+        /* table, th, td {
+            border: 1px solid black; */
+            /* border-collapse: collapse; */
+        /* }
+        table {
+            width: 80%;
+            margin: auto;
+            border-spacing: 5px;
+        }
+        th, td {
+            padding: 6px;
+        } */
+        table {
+            width: 80%;
+            margin: auto;
+        }
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+        }
+        table tr:nth-child(even) {
+            background-color: silver;
+        }
+        table th {
+            color: white;
+            background-color: black;
+            border: 1px solid white;
+            padding: 6px;
+        }
+        table tr:hover {
+            color: white;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tables in HTML</h1>
+    <h2>The &lt;table&gt; Element to represent data in Tabular (row and column wise) format</h2>
+    <h3>Student Data</h3>
+<table>
+    <tr><th>Roll No</th><th>Name</th><th colspan="2">Mobile No</th><th>College</th></tr>
+    <tr><td>101</td><td>Aditya</td><td>9988776655</td><td>8888776655</td><td>WIT, Solapur</td></tr>
+    <tr><td>102</td><td>Abhishek</td><td>9988776644</td><td>8888776644</td><td>Orchid College, Solapur</td></tr>
+    <tr><td>103</td><td>Ojas</td><td colspan="2">9988776633</td><td>WIT, Solapur</td></tr>
+    <tr><td>104</td><td>Shivshankar</td><td>9988776622</td><td>8888776622</td><td>Orchid College, Solapur</td></tr>
+    <tr><td>105</td><td>Siddhi</td><td>9988776611</td><td>8888776611</td><td>WIT, Solapur</td></tr>
+    <tr><td>101</td><td>Aditya</td><td>9988776655</td><td>8888776655</td><td>WIT, Solapur</td></tr>
+    <tr><td>102</td><td>Abhishek</td><td>9988776644</td><td>8888776644</td><td>Orchid College, Solapur</td></tr>
+    <tr><td>103</td><td>Ojas</td><td colspan="2">9988776633</td><td>WIT, Solapur</td></tr>
+    <tr><td>104</td><td>Shivshankar</td><td>9988776622</td><td>8888776622</td><td>Orchid College, Solapur</td></tr>
+    <tr><td>105</td><td>Siddhi</td><td>9988776611</td><td>8888776611</td><td>WIT, Solapur</td></tr>
+    <tr><td>101</td><td>Aditya</td><td>9988776655</td><td>8888776655</td><td>WIT, Solapur</td></tr>
+    <tr><td>102</td><td>Abhishek</td><td>9988776644</td><td>8888776644</td><td>Orchid College, Solapur</td></tr>
+    <tr><td>103</td><td>Ojas</td><td colspan="2">9988776633</td><td>WIT, Solapur</td></tr>
+    <tr><td>104</td><td>Shivshankar</td><td>9988776622</td><td>8888776622</td><td>Orchid College, Solapur</td></tr>
+    <tr><td>105</td><td>Siddhi</td><td>9988776611</td><td>8888776611</td><td>WIT, Solapur</td></tr>
+</table>
+<h2>Horizontal Table</h2>
+<h3>Employee Data</h3>
+
+<table>
+    <caption>Employee Data</caption>
+    <tr><th>Emp ID</th><td>1001</td><td>1002</td><td>1003</td><td>1004</td></tr>
+    <tr><th>Name</th><td>Bhagyashri</td><td>Samata</td><td>Anjali</td><td>Jahnavi</td></tr>
+    <tr><th rowspan="2">Mobile No</th><td>7788996655</td><td>7788996644</td><td rowspan="2">7788996633</td><td>7788996622</td></tr>
+    <tr><td>8877889955</td><td>8877889944</td><td>8877889922</td></tr>
+    <tr><th>Designation</th><td>Sr. Designiner</td><td>Sr. Developer</td><td>Manager</td><td>Tester</td></tr>
+    <tr><th>Emp ID</th><td>1001</td><td>1002</td><td>1003</td><td>1004</td></tr>
+    <tr><th>Name</th><td>Bhagyashri</td><td>Samata</td><td>Anjali</td><td>Jahnavi</td></tr>
+    <tr><th rowspan="2">Mobile No</th><td>7788996655</td><td>7788996644</td><td rowspan="2">7788996633</td><td>7788996622</td></tr>
+    <tr><td>8877889955</td><td>8877889944</td><td>8877889922</td></tr>
+    <tr><th>Designation</th><td>Sr. Designiner</td><td>Sr. Developer</td><td>Manager</td><td>Tester</td></tr>
+    <tr><th>Emp ID</th><td>1001</td><td>1002</td><td>1003</td><td>1004</td></tr>
+    <tr><th>Name</th><td>Bhagyashri</td><td>Samata</td><td>Anjali</td><td>Jahnavi</td></tr>
+    <tr><th rowspan="2">Mobile No</th><td>7788996655</td><td>7788996644</td><td rowspan="2">7788996633</td><td>7788996622</td></tr>
+    <tr><td>8877889955</td><td>8877889944</td><td>8877889922</td></tr>
+    <tr><th>Designation</th><td>Sr. Designiner</td><td>Sr. Developer</td><td>Manager</td><td>Tester</td></tr>
+</table>
+</body>
+</html>
